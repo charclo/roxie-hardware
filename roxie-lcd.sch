@@ -30,7 +30,7 @@ Text GLabel 2750 1100 2    50   Input ~ 0
 5V
 Text GLabel 4500 2550 0    50   Input ~ 0
 GND
-Text GLabel 4500 2650 0    50   Input ~ 0
+Text GLabel 4500 2350 0    50   Input ~ 0
 5V
 $Comp
 L Connector_Generic:Conn_01x04 J2
@@ -83,7 +83,7 @@ Text GLabel 2750 2650 2    50   Input ~ 0
 CS
 Text GLabel 5500 1550 2    50   Input ~ 0
 RS
-Text GLabel 5500 1250 2    50   Input ~ 0
+Text GLabel 5500 1450 2    50   Input ~ 0
 RST
 Text GLabel 5500 1650 2    50   Input ~ 0
 CS
@@ -4653,7 +4653,7 @@ NoConn ~ 4500 1950
 NoConn ~ 4500 2050
 NoConn ~ 4500 2150
 NoConn ~ 4500 2250
-NoConn ~ 4500 2350
+NoConn ~ 4500 2650
 NoConn ~ 4500 2450
 NoConn ~ 5500 2450
 NoConn ~ 5500 2350
@@ -4663,7 +4663,7 @@ NoConn ~ 5500 2050
 NoConn ~ 5500 1950
 NoConn ~ 5500 1850
 NoConn ~ 5500 1750
-NoConn ~ 5500 1450
+NoConn ~ 5500 1250
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 5F13B285
