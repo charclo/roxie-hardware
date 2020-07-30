@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Arduino-nano-33:Arduino-NANO-33 J1
+L roxie-lcd-rescue:Arduino-NANO-33-Arduino-nano-33 J1
 U 1 1 5F116540
 P 5000 1950
 F 0 "J1" H 5000 3015 50  0000 C CNN
@@ -8767,4 +8767,48 @@ C0 26 42 2C 0A 04 02 81 40 20 10 08 6C 22 C4 A2 40 20 10 08 04 02 81 C0 26 42 2C
 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F23189F
+P 1200 5100
+F 0 "H1" H 1300 5146 50  0000 L CNN
+F 1 "MountingHole" H 1300 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 1200 5100 50  0001 C CNN
+F 3 "~" H 1200 5100 50  0001 C CNN
+	1    1200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F231BE6
+P 1200 5350
+F 0 "H2" H 1300 5396 50  0000 L CNN
+F 1 "MountingHole" H 1300 5305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 1200 5350 50  0001 C CNN
+F 3 "~" H 1200 5350 50  0001 C CNN
+	1    1200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F231F82
+P 1200 5600
+F 0 "H3" H 1300 5646 50  0000 L CNN
+F 1 "MountingHole" H 1300 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 1200 5600 50  0001 C CNN
+F 3 "~" H 1200 5600 50  0001 C CNN
+	1    1200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F232494
+P 1200 5850
+F 0 "H4" H 1300 5896 50  0000 L CNN
+F 1 "MountingHole" H 1300 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 1200 5850 50  0001 C CNN
+F 3 "~" H 1200 5850 50  0001 C CNN
+	1    1200 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
