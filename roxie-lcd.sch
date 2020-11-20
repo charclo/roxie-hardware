@@ -18,7 +18,7 @@ L roxie-lcd-rescue:Arduino-NANO-33-Arduino-nano-33 J1
 U 1 1 5F116540
 P 5000 1950
 F 0 "J1" H 5000 3015 50  0000 C CNN
-F 1 "Arduino-NANO-33" H 5000 2924 50  0000 C CNN
+F 1 "Arduino-NANO-Every" H 5000 2924 50  0000 C CNN
 F 2 "lib:NANO_33_Footprint_SMD_Castell" H 4675 1850 50  0001 C CNN
 F 3 "~" H 4675 1850 50  0001 C CNN
 	1    5000 1950
@@ -32,17 +32,6 @@ Text GLabel 4500 2550 0    50   Input ~ 0
 GND
 Text GLabel 4500 2350 0    50   Input ~ 0
 5V
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5F12737E
-P 2550 1200
-F 0 "J2" H 2468 1517 50  0000 C CNN
-F 1 "VESC" H 2468 1426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2550 1200 50  0001 C CNN
-F 3 "~" H 2550 1200 50  0001 C CNN
-	1    2550 1200
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2750 1300 2    50   Input ~ 0
 RX
 Text GLabel 2750 1200 2    50   Input ~ 0
@@ -4663,7 +4652,6 @@ NoConn ~ 5500 2050
 NoConn ~ 5500 1950
 NoConn ~ 5500 1850
 NoConn ~ 5500 1750
-NoConn ~ 5500 1250
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 5F13B285
@@ -4675,10 +4663,6 @@ F 3 "~" H 3200 2450 50  0001 C CNN
 	1    3200 2450
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 3400 2350
-NoConn ~ 3400 2450
-NoConn ~ 3400 2550
-NoConn ~ 3400 2650
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F23189F
@@ -4723,4 +4707,25 @@ F 3 "~" H 1200 5850 50  0001 C CNN
 	1    1200 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5F12737E
+P 2550 1200
+F 0 "J2" H 2468 1517 50  0000 C CNN
+F 1 "VESC" H 2468 1426 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 2550 1200 50  0001 C CNN
+F 3 "~" H 2550 1200 50  0001 C CNN
+	1    2550 1200
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3400 2350 2    50   Input ~ 0
+CS
+Text GLabel 3400 2550 2    50   Input ~ 0
+CLK
+Text GLabel 3400 2450 2    50   Input ~ 0
+SDA
+Text GLabel 5500 1250 2    50   Input ~ 0
+MISO
+Text GLabel 3400 2650 2    50   Input ~ 0
+MISO
 $EndSCHEMATC
