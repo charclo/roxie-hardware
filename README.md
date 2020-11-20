@@ -1,5 +1,5 @@
 # Welcome
-This repository contains the kciad and gerber files for the open source Roxie (based on [DAVEga OS](https://github.com/janpom/davega)).
+This repository contains the kicad and gerber files for the open source Roxie (based on [DAVEga OS](https://github.com/janpom/davega)).
 # Building instructions
 Instructions on how to order and make your own Roxie display can be found [here](https://github.com/charclo/roxie-hardware/wiki)
 # Photos
